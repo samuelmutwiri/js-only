@@ -1,0 +1,29 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+  }
+
+  input, button {
+    margin: 10px;
+    padding: 8px;
+    font-size: 16px;
+  }
+  #result {
+    color: brown;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bolder;
+    font-size: x-large;
+}
+.inpts {
+    display: inline-block;
+    background-color: blanchedalmond;
+    border-left: 43%;
+    width: max-content;
+}
+.btns {
+    display: inline-flex;
+    border-left: 43%;
+    background-color: brown;
+    width: fit-content;
+}

@@ -34,3 +34,12 @@ function subtract() {
     document.getElementById('result').innerHTML = "Result: " + result;
   
   }
+  function exchangeValues() {
+    // Get input values
+    var value1 = document.getElementById('num1').value;
+    var value2 = document.getElementById('num2').value;
+
+    // Exchange values
+    document.getElementById('num1').value = value2;
+    document.getElementById('num2').value = value1;
+  }

@@ -5,12 +5,17 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculator</title>
   <script src="/logic.js"></script>
+  <script src="/pretify.js"></script>
   <link rel="stylesheet" href="/pretify.css">
 </head>
+<header>
+  <div id="logoholder">
+  <!-- <img src="images/sasoft.png" alt="Logo"> -->
+    <h1>Fast Javascript calculator</h1>
+  </div>
+</header>
 <body>
   <div class="inpts">
-    <h1>Fast Javascript calculator</h1>
-
     <label for="num1">1st number:</label>
     <input type="number" id="num1" placeholder="0...">
     <br>
@@ -21,6 +26,7 @@
   <div class="btns">
     <button onclick="calculate()">Calculate Sum</button>
     <button onclick="subtract()">Subtract</button>
+    <button  class="rotating-element" id="ex" onclick="exchangeValues(), rotateAndRestore()"><img src="images/exchange.svg" alt="exchange"</button>
   </div>
 </body>
 </html>

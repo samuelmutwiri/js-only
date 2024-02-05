@@ -43,3 +43,21 @@ function subtract() {
     document.getElementById('num1').value = value2;
     document.getElementById('num2').value = value1;
   }
+  function multiply() {
+    // Get input values
+    var num1 = parseFloat(document.getElementById('num1').value);
+    var num2 = parseFloat(document.getElementById('num2').value);
+
+    // Check if input values are valid numbers
+    if (isNaN(num1) || isNaN(num2)) {
+      alert("Please enter valid numbers");
+      return;
+    }
+
+    // Calculate product instead of sum
+    var product = num1 * num2;
+
+    // Display result
+    document.getElementById('result').innerHTML = "Product: " + product;
+  }
+  

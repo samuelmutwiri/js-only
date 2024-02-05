@@ -1,26 +1,29 @@
+
 body {
     font-family: Arial, sans-serif;
     text-align: center;
     margin: 50px;
-    background-color: gradient (purple 33%, green 67%);
+    background-color: brown;
   }
 
   input, button {
     margin: 10px;
     padding: 8px;
-    font-size: 16px;
+    font-size: 25px;
+
   }
   #result {
-    color: brown;
+    color: rgb(42, 165, 69);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-weight: bolder;
     font-size: x-large;
 }
 .inpts {
-    display: inline-block;
-    background-color: blanchedalmond;
+    display: inline;
+    background-color: brown;
     border-left: 43%;
     width: max-content;
+    color: greenyellow;
 }
 .btns {
     display: inline-flex;
@@ -28,16 +31,34 @@ body {
     background-color: brown;
     width: fit-content;
 }
-#logoholder {
+.logoholder {
   max-width: 90%;
   background-image: url(images/sasoft.png);
   background-repeat: no-repeat;
+  height: 50px;
 }
 #ex {
   width: fit-content;
   cursor: pointer;
   transition: transform 0.5s ease;
+  border-radius: 50%;
 }
 .rotated {
-  transform: rotate(45deg); /* Rotate the element by 45 degrees */
+  transform: rotate(180deg); /* Rotate the element by 180 degrees */
+  border-radius: 50%;
+}
+.fields {
+  background-color: rgb(221, 19, 19);
+  font-weight: 400;
+  font-family: monospace;
+  border-radius: 50%;
+  padding: 5px, blue;
+  width: 33%;
+  display: inline-flexbox;
+}
+.butts {
+  border-radius: 50%;
+  cursor: progress;
+  box-shadow: 0 4px 8px rgba(20, 14, 14, 0.1); /* Adjust the shadow properties as needed */
+  z-index: 1
 }

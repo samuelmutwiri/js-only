@@ -1,9 +1,12 @@
-
+header {
+  position: sticky;
+}
 body {
     font-family: Arial, sans-serif;
     text-align: center;
-    margin: 50px;
+    left: 30%;
     background-color: brown;
+    height: 100vh;
   }
 
   input, button {
@@ -19,11 +22,12 @@ body {
     font-size: x-large;
 }
 .inpts {
-    display: inline;
+    display: inline-block;
     background-color: brown;
-    border-left: 43%;
+    border-left: 5lvh;
     width: max-content;
     color: greenyellow;
+    margin-top: 25vh;
 }
 .btns {
     display: inline-flex;
@@ -33,7 +37,7 @@ body {
 }
 .logoholder {
   max-width: 90%;
-  background-image: url(images/sasoft.png);
+  background: transparent;
   background-repeat: no-repeat;
   height: 50px;
 }
@@ -53,7 +57,7 @@ body {
   font-family: monospace;
   border-radius: 50%;
   padding: 5px, blue;
-  width: 33%;
+  width: 45%;
   display: inline-flexbox;
 }
 .butts {
@@ -61,4 +65,8 @@ body {
   cursor: progress;
   box-shadow: 0 4px 8px rgba(20, 14, 14, 0.1); /* Adjust the shadow properties as needed */
   z-index: 1
+}
+#Logo {
+  height: 25vh;
+  width: 50vh;
 }

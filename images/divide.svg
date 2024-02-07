@@ -1,0 +1,32 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+
+<!-- Uploaded to: SVG Repo, www.svgrepo.com, Transformed by: SVG Repo Mixer Tools -->
+<svg fill="#6cff0a" width="50px" height="50px" viewBox="0 0 24.00 24.00" id="divide-circle" data-name="Flat Line" xmlns="http://www.w3.org/2000/svg" class="icon flat-line" stroke="#6cff0a">
+
+<g id="SVGRepo_bgCarrier" stroke-width="0"/>
+
+<g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC" stroke-width="1.248">
+
+<circle id="secondary" cx="12" cy="12" r="9" style="fill: #023840; stroke-width:1.8719999999999999;"/>
+
+<line id="primary-upstroke" x1="11.95" y1="7.5" x2="12.05" y2="7.5" style="fill: none; stroke: #f9f10b; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.8719999999999999;"/>
+
+<line id="primary-upstroke-2" data-name="primary-upstroke" x1="11.95" y1="16.5" x2="12.05" y2="16.5" style="fill: none; stroke: #f9f10b; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.8719999999999999;"/>
+
+<path id="primary" d="M7,12H17M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z" style="fill: none; stroke: #f9f10b; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.8719999999999999;"/>
+
+</g>
+
+<g id="SVGRepo_iconCarrier">
+
+<circle id="secondary" cx="12" cy="12" r="9" style="fill: #023840; stroke-width:1.8719999999999999;"/>
+
+<line id="primary-upstroke" x1="11.95" y1="7.5" x2="12.05" y2="7.5" style="fill: none; stroke: #f9f10b; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.8719999999999999;"/>
+
+<line id="primary-upstroke-2" data-name="primary-upstroke" x1="11.95" y1="16.5" x2="12.05" y2="16.5" style="fill: none; stroke: #f9f10b; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.8719999999999999;"/>
+
+<path id="primary" d="M7,12H17M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Z" style="fill: none; stroke: #f9f10b; stroke-linecap: round; stroke-linejoin: round; stroke-width:1.8719999999999999;"/>
+
+</g>
+
+</svg>

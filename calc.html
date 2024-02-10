@@ -11,8 +11,8 @@
 <header>
   <div class="logoholder">
    <img id="Logo" src="images/sasoft.png" alt="Logo">
-    <h1>Fast Calc</h1>
-  </div>
+    <p>Welcome to Sasoft's Calculator app</p>
+    <p>This app is in development</p>
 </header>
 <body>
   <div class="inpts">
@@ -20,17 +20,20 @@
     <input type="number" class="fields" id="num1" placeholder="0.">
     <br>
     <input type="number" class="fields" id="num2" placeholder=".9"> <br>
-    <label for="num2"><img src="images/top.svg" alt=""></label> <br>
+    <label for="num2"></label> <br>
     <p id="result"></p>
+    <button id="copyanswer" onclick="copyToClipboard()"><img src="images/copy.svg" alt=""></button>
   </div>
   <div class="btns">
-    <button class="rotating-element, butts" onclick="calculate()">
+    <button class="rotating-element, butts" onclick="calculate(), showcopy">
      <img src="/images/plus.svg" alt="plus">
     </button>
     <button class="rotating-element, butts" onclick="subtract()">
       <img src="images/minus.svg" alt="minus"></button>
     <button class="rotating-element, butts" onclick="multiply()">
       <img src="images/multiply.svg" alt=""></button>
+    <button class="rotating-element, butts" onclick="divide()">
+        <img src="images/divide.svg" alt="divide"></button>
     <button  class="rotating-element" id="ex" onclick="exchangeValues(), rotateAndRestore()">
       <img src="images/exchange.svg" alt="exchange">
     </button>
